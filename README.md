@@ -7,4 +7,4 @@
 
 - Formats: never take the order for granted (e.g. `11/10/1990` could mean `1990-10-11` or `1990-11-10`)
 
-- Node.js: always check that `full-icu` is enabled when running test suites or formatting might default to `en-US`
+- Node.js: make sure `full-icu` is enabled when running test suites or formatting might default to `en-US`
