@@ -8,7 +8,7 @@
 
 ## Frontends
 - see ¹
-- send either ISO datestrings or timestamps to the backend (see ²)
+- send either ISO datestrings or timestamps to the backend, see ²
 
 ## Date object
 - `toLocaleDateString` et al.: always explicitely pass formatting options to avoid unexpected results in some locales
