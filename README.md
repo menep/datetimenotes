@@ -1,10 +1,10 @@
 # Notes on DateTime
 
-# Server
+## Server
 - always store DateTime in ISO 8601 format, UTC timezone (e.g. `2023-01-01T00:00:00Z`)
 - always use libraries for DateTime manipulation (e.g. `date-fns`) (1)
 
-# Web
+## Web
 - always use libraries for DateTime manipulation (e.g. `date-fns`) (1)
 
 ## Date object
