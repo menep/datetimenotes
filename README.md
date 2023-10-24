@@ -5,10 +5,12 @@
 - when necessary to store the timezone, store it separately from the date and time
 - always use libraries for date and time manipulation (e.g. `date-fns`) ¹
 - API endpoints should accept either ISO datestrings or timestamps ²
+- JS uses milliseconds for timestamps, other languages (e.g. PHP) use seconds ³
 
 ## Frontends
 - see ¹
-- send either ISO datestrings or timestamps to the backend, see ²
+- see ²
+- see ³
 
 ## Date object
 - `toLocaleDateString` et al.: always explicitely pass formatting options to avoid unexpected results in some locales
