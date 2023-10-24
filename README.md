@@ -2,10 +2,12 @@
 
 ## Server
 - always store DateTime in ISO 8601 format, UTC timezone (e.g. `2023-01-01T00:00:00Z`)
+- API endpoints should accept either ISO datestrings or timestamps
 - always use libraries for DateTime manipulation (e.g. `date-fns`) ¹
 
 ## Web
 - always use libraries for DateTime manipulation (e.g. `date-fns`) ¹
+- send either ISO datestrings or timestamps to the backend
 
 ## Date object
 - `toLocaleDateString` et al.: always explicitely pass formatting options to avoid unexpected results in some locales
