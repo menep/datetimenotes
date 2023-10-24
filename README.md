@@ -1,12 +1,12 @@
 # Notes on Date and Time
 
-## Server
+## Backend (server, database)
 - always store date and time in ISO 8601 format, UTC timezone (e.g. `2023-01-01T00:00:00Z`)
 - when necessary to store the timezone, store it separately from the date and time
 - API endpoints should accept either ISO datestrings or timestamps
 - always use libraries for date and time manipulation (e.g. `date-fns`) ¹
 
-## Web
+## Frontends
 - see ¹
 - send either ISO datestrings or timestamps to the backend
 
